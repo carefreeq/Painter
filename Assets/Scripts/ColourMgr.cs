@@ -83,6 +83,7 @@ namespace Painter
             }
             public void OnPointerUp(PointerEventData eventData)
             {
+                ColourMgr.View.color = ColourZone.Dye();
                 Painter.Color = ColourZone.Dye();
             }
         }
